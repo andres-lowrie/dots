@@ -94,6 +94,11 @@
   (evil-lion-mode))
 
 
+;; Magit
+(after! magit
+  (transient-append-suffix 'magit-log "-A"
+    '("-1" "first parent" "--first-parent")))
+
 
 ;; Org
 (after! org
