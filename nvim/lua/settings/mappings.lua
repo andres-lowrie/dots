@@ -46,7 +46,7 @@ map('c', '<C-e>', '<End>', { noremap = true})
 map('c', '<C-p>', '<Up>', { noremap = true})
 map('c', '<C-n>', '<Down>', { noremap = true})
 map('c', '<C-b>', '<S-Left>', { noremap = true})
-map('c', '<C-f>', '<S-Right>', { noremap = true})
+map('c', '<C-l>', '<S-Right>', { noremap = true})
 
 -- Toggles
 map('n', '<leader>tp', ':set paste! paste?<CR>', { noremap = true })

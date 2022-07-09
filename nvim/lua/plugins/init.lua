@@ -5,6 +5,7 @@ return require'packer'.startup(function()
 
   use 'justinmk/vim-dirvish'
   use 'roginfarrer/vim-dirvish-dovish'
+  require('plugins.dirvish')
 
   use '/usr/local/opt/fzf'
   use 'junegunn/fzf.vim'
@@ -25,6 +26,34 @@ return require'packer'.startup(function()
     branch = 'v1'
   }
   require('plugins.hop')
+
+  use 'jiangmiao/auto-pairs'
+
+  use 'tpope/vim-surround'
+
+  use 'tpope/vim-unimpaired'
+
+  use 'tpope/vim-surround'
+
+  use 'tpope/vim-commentary'
+  require('plugins.vim-commentary')
+
+  use 'kshenoy/vim-signature'
+
+  use 'dense-analysis/ale'
+  require('plugins.ale')
+
+  use 't9md/vim-choosewin'
+  require('plugins.choosewin')
+
+  -- Languages
+  use 'tbastos/vim-lua'
+
+  use 'kchmck/vim-coffee-script'
+
+  use 'elzr/vim-json'
+
+  use 'zah/nim.vim'
 
   -- Forks and my garbage
   use 'andres-lowrie/vim-maximizer'
