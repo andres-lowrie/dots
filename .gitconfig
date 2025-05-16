@@ -1,0 +1,33 @@
+[alias]
+  logline = log --graph --pretty=format:'%Cred%h%Creset -%C(bold red)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  loglinerev = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --reverse -n 20
+  loggraph = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  changes = diff-tree --name-status --no-commit-id -r HEAD~1..HEAD
+  ignore-list = "! cd -- \"${GIT_PREFIX:-.}\" && git ls-files -v ${1:-.} | sed -n -e \"s,^[a-z] \\(.*\\)$,${GIT_PREFIX:-./}\\1,p\" && git status --ignored --porcelain ${1:-.} 2>/dev/null | sed -n -e \"s/^\\(\\!\\! \\)\\(.*\\)$/\\2/p\" #"
+  prfiles = "show --name-only"
+  difffile = "diff-tree --name-status --no-commit-id -r HEAD~1..HEAD
+
+[core]
+  quotepath = false
+  excludefile = /Users/andreslowrie/.config/git/ignore
+  pager = delta --navigate
+
+[delta]
+ plus-color = "#012800"
+ minus-color = "#340001"
+ side-by-side = true
+
+[interactive]
+  diffFilter = delta --color-only
+
+[github]
+  user = andres-lowrie
+
+[pull]
+  rebase = false
+
+[init]
+  defaultBranch = main
+
+[rerere]
+  enabled = true
