@@ -7,6 +7,9 @@ My dots
 export MANPAGER="vim -M +MANPAGER -"
 ```
 
+## Terminal
+https://github.com/kovidgoyal/kitty
+
 ## Tools Needed
 
 - `rg` https://github.com/BurntSushi/ripgrep
@@ -15,3 +18,6 @@ export MANPAGER="vim -M +MANPAGER -"
 - `nvim` https://github.com/neovim/neovim
 - `jq` https://github.com/jqlang/jq
 - `jless` https://github.com/PaulJuliusMartinez/jless
+- `tmux` https://github.com/gpakosz/.tmux
+- `mlr` https://github.com/johnkerl/miller
+- `bat` https://github.com/sharkdp/bat
