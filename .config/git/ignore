@@ -1,0 +1,42 @@
+# Editor
+*.swp
+*.swo
+*.viminfo
+
+# OSX
+.DS_Store
+.#*
+
+# common names I give to credentials
+creds
+creds.json
+*.enc
+
+# I think this was asdf or something like that :shrug:
+*.tool-versions
+
+
+# Ctags
+*.lock
+*.tmp
+*.temp
+tags
+
+# direnv
+.envrc
+
+# me messing around with stuff
+scratch
+
+# python
+venv/
+pyrightconfig.json
+
+# node
+node_modules/
+
+# scala
+.bsp/
+target/
+.metals/
+.scala-build/
