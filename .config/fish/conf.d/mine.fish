@@ -96,6 +96,12 @@ function gwd --wraps=git
   git branch -D $argv
 end
 
+function gss -wraps=git -d="Start nvim showing only the git status pane"
+  # Note: The following one only works if you have neovim and the vim-fugitive plugin installed
+  # Start vim showing the only git status pane
+  nvim -p -c :Git -c :only
+end
+
 # Tmux
 # -----------------------------------------------------------------------------
 function t --wraps=tmux
