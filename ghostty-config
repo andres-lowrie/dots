@@ -1,0 +1,4 @@
+command = /opt/homebrew/Cellar/fish/3.7.1/bin/fish
+macos-option-as-alt = true
+shell-integration = fish
+theme = catppuccin-frappe
