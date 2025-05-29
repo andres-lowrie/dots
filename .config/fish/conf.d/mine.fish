@@ -109,11 +109,7 @@ function t --wraps=tmux
 end
 
 function tas
-  if echo $argv[1] | rg -q '^[0-9]+$'
-    tmux attach -t "APTEAM-$argv[1]" $argv[2..]
-  else
-    tmux attach -t $argv
-  end
+  tmux attach -t $argv
 end
 
 function tns
