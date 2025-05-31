@@ -477,7 +477,7 @@ require('lazy').setup({
         documentation = { auto_show = false, auto_show_delay_ms = 500 },
       },
       sources = {
-        default = { 'lsp', 'path', 'snippets', 'lazydev', 'copilot' },
+        default = {'buffer', 'lsp', 'path', 'snippets', 'lazydev', 'copilot' },
         providers = {
           lazydev = { module = 'lazydev.integrations.blink', score_offset = 100 },
           copilot = {

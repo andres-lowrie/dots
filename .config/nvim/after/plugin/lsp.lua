@@ -38,3 +38,5 @@ vim.lsp.config("*", {
 })
 
 vim.lsp.enable("lua_ls")
+vim.lsp.enable("ruff") -- <-- doesn't do anything past linting... it's a hurry up and wait game
+--- vim.lsp.enable("pyright") <-- why is this written in nodejs?
