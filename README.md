@@ -18,7 +18,7 @@ https://github.com/kovidgoyal/kitty
 - `nvim` https://github.com/neovim/neovim
 - `jq` https://github.com/jqlang/jq
 - `jless` https://github.com/PaulJuliusMartinez/jless
-- `tmux` https://github.com/gpakosz/.tmux
+- `tmux` https://github.com/tmux/tmux
 - `mlr` https://github.com/johnkerl/miller
 - `bat` https://github.com/sharkdp/bat
 - `zoxide` https://github.com/ajeetdsouza/zoxide
