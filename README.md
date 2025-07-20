@@ -21,3 +21,4 @@ https://github.com/kovidgoyal/kitty
 - `tmux` https://github.com/gpakosz/.tmux
 - `mlr` https://github.com/johnkerl/miller
 - `bat` https://github.com/sharkdp/bat
+- `zoxide` https://github.com/ajeetdsouza/zoxide
