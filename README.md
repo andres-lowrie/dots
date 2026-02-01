@@ -19,6 +19,7 @@ https://github.com/kovidgoyal/kitty
 - `jq` https://github.com/jqlang/jq
 - `jless` https://github.com/PaulJuliusMartinez/jless
 - `tmux` https://github.com/tmux/tmux
+- `tpm` https://github.com/tmux-plugins/tpm 
 - `mlr` https://github.com/johnkerl/miller
 - `bat` https://github.com/sharkdp/bat
 - `zoxide` https://github.com/ajeetdsouza/zoxide
